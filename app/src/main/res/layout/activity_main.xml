@@ -46,7 +46,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/label_temperature"
-                android:textColor="#F44336"
                 android:text="Temperature sensor : %1$.2f"/>
 
             <TextView

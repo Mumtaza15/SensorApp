@@ -192,14 +192,14 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         }
     }
 
-    private void changeBackgroundColorTemper(float currentValue){
-        ConstraintLayout layout = findViewById(R.id.layout_constraint);
-        if(currentValue >= 20000 && currentValue <= 40000){
-            layout.setBackgroundColor(Color.RED);
-        }else if (currentValue >= 0 && currentValue < 20000){
-            layout.setBackgroundColor(Color.CYAN);
-        }
-    }
+//    private void changeBackgroundColorTemper(float currentValue){
+//        ConstraintLayout layout = findViewById(R.id.layout_constraint);
+//        if(currentValue >= 20000 && currentValue <= 40000){
+//            layout.setBackgroundColor(Color.RED);
+//        }else if (currentValue >= 0 && currentValue < 20000){
+//            layout.setBackgroundColor(Color.CYAN);
+//        }
+//    }
 
     @Override
     public void onAccuracyChanged(Sensor sensor, int i) {
